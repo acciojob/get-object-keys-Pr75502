@@ -1,9 +1,12 @@
-let myObj = {
-  name: "Alice"
+// Create the student object
+const student = {
+  name: "John",
 };
 
+// Function to get all keys from the object
 function getKeys(obj) {
   return Object.keys(obj);
 }
 
-console.log(getKeys(myObj));
+// Testing the function
+console.log(getKeys(student));
