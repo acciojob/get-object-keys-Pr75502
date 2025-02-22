@@ -1,8 +1,9 @@
 let myObj = {
-  name: "Alice",
-  getKeys: function() {
-    return Object.keys(this);
-  }
+  name: "Alice"
 };
 
-console.log(myObj.getKeys());
+function getKeys(obj) {
+  return Object.keys(obj);
+}
+
+console.log(getKeys(myObj));
