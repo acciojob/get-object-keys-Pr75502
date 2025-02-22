@@ -1,8 +1,8 @@
-//your JS code here. If required.
-let myObj={
-	name:"john"
-}
-function getKeys(obj){
-	return Object.keys(obj)
-}
-console.log(getKeys(myObj))
+let myObj = {
+  name: "Alice",
+  getKeys: function() {
+    return Object.keys(this);
+  }
+};
+
+console.log(myObj.getKeys());
