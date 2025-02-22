@@ -1,8 +1,8 @@
 //your JS code here. If required.
-let student={
+let myObj={
 	name:"john"
 }
 function getKeys(obj){
 	return Object.keys(obj)
 }
-console.log(getKeys(student))
+console.log(getKeys(myObj))
