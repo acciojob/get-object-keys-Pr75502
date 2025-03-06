@@ -1,11 +1,10 @@
 // Create the student object
 
-let student = {
-    name:"johm"
-}
+const student = {
+	name: "John Doe"
+};
 function getKeys(obj) {
-    return Object.keys(obj);
+	return Object.keys(obj);
 }
-
 
 console.log(getKeys(student));
